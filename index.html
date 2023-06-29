@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jokes</title>
+  </head>
+
+  <body>
+    <h1>Joke Generator</h1>
+    <div class="cont">
+      <label for="keyword">Enter a keyword:</label>
+      <input
+        class="shayariContainer"
+        type="text"
+        id="keyword"
+        placeholder="e.g., love, nature, life"
+      />
+      <button id="generateBtn">Generate Jokes</button>
+      <div class="shayari-container" id="shayariContainer">
+        <h1 id="loader">Loading...</h1>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
