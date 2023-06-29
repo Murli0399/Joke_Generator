@@ -7,16 +7,14 @@ generateBtn.addEventListener("click", async () => {
   const prompt = keywordInput.value;
 
   showLoader();
-  // Send a POST request to the backend API
   const response = await fetch(
     `http://localhost:8080/chat?prompt=${prompt}`
   );
   hideLoader();
 
-  const data = await response.json();
+  const data = await response;
 
-  // Display the generated Shayari on the page
-  shayariContainer.textContent = data.shayari;
+  shayariContainer.textContent = data;
 });
 
 function showLoader() {
