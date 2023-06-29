@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #a1c3d3;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cont {
+  width: 50%;
+  margin: auto;
+}
+
+.shayariContainer {
+  width: 95%;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #242424;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.shayari-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  overflow: hidden;
+  height: 300px;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+#loader {
+  display: none;
+}
